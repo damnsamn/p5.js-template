@@ -8,6 +8,6 @@ function setup() {
     canvas = createCanvas(canvasWidth, canvasHeight);
 }
 function draw() {
-    backround(0);
+    background(0);
     textFont(font);
 }
