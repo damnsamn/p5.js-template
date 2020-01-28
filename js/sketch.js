@@ -6,8 +6,9 @@ function preload() {
 
 function setup() {
     canvas = createCanvas(canvasWidth, canvasHeight);
+    textFont(font);
 }
+
 function draw() {
     background(0);
-    textFont(font);
 }
