@@ -1,7 +1,7 @@
-var canvasWidth = 800;
-var canvasHeight = 800;
+var font;
 
 function preload() {
+    font = loadFont(fontPath);
 }
 
 function setup() {
@@ -9,4 +9,5 @@ function setup() {
 }
 function draw() {
     backround(0);
+    textFont(font);
 }
